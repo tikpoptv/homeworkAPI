@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BeTestingApplication<BE_Testing>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.API.BE_Testing.BeTestingApplication",
+            "projectName": "BE_Testing",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiApplication<API>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.BE_Testig.API.ApiApplication",
+            "projectName": "API",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiApplication<api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.be.api.ApiApplication",
+            "projectName": "api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
